@@ -1,0 +1,27 @@
+0.  PNG, BMP and JPG can support 16million colours.GIF format can only have 256 different colours.
+1.  GIF
+2.  Lossy compression means that there is a lost of information (quality) when you compress the file (when you take a picture or modify it). For example, JPEG use that principle to compress the images. Redundant information is deleted and you have a less bigger file size as result. 
+    At the other side, Lossless compression, don't have lost of information (quality) and the file sizes are bigger.   
+3.  JPG
+4.  When a file is deleted from an OS, the OS give the signal that that file can be recycled on the disk. The system
+moves all of the file's FAT clusters to the hard drives list of free clusters. The actual file is never touched.
+5.  There are several ways; you can overwrite all your data/bytes with NULLS or another character.
+    Physically destroy your harddisk or degaussing the drive to randomize the magnetic domains. The two last one are not recommened.
+6.  Stdint is the standard integer types library. That library can give you the 
+exact width of an integer
+7.  These are variables that holds the width of a int or unsigned type. Uint8_t is an unsigned type of 8-bit.
+uint32_t is also unsigned but with 32 bit width. Int32_t is a signed 32-bit int. uint16_t is an unsigned type of 16 bit.
+You use these variables to avoid problems when you export your program over different OS's. The width of an int is, thanks to this method, assigned by the OS and not by the coder. 
+8.  1 BYTE is 1 byte (= 8bits). 1 DWORD is a 32-bit unsigned type. LONG is a signed 32-bit int. Word is a unsigned 16-bit type.
+9.  42 4d
+10. Bfsize will describe the entire file's size in bytes. Bisize is the size of the BITMAPINFOHEADER structure given in bytes. Usually equals to 40 bytes.
+11. If the biHeight is negative, the bitmap is top-down with the origin at the upper left-corner
+12. biBitCount
+13. If copy.c couldn't make a new file, or open the file, or whatever problem occurs, outptr will then return NULL.
+There is an condition structure if there is an error (outptr is NULL) then close the program and give a error back to the user.
+14. We read 1 byte at a time.
+15. Padding is now 3
+16. In our example it is used to skip over padding when there is.
+Fseek is used to sets the file position indicator to a new location in the stream.
+17. SEEK_CUR is used to set the offset relative to the current position indicator.
+18. Milo Banana, the butt licker
