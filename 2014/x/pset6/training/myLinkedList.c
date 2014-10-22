@@ -3,7 +3,7 @@
  *
  * week 7 section
  * fall 2013
- * 
+ *
  * practice using linked lists
  */
 
@@ -95,10 +95,8 @@ bool insert_node(int value)
             }else {
                 prev_ptr->next = new_node;
             }
-            
             return true;
         }
-
         if(value > curr_ptr->n){
             // need to update pointers
             prev_ptr = curr_ptr;
@@ -116,7 +114,8 @@ bool insert_node(int value)
             return false;
         }
     }
-    return true;
+    // If we reach that return statement there must be an error somewhere
+    return false;
 }
 
 /**
