@@ -1,0 +1,15 @@
+0.  An English word that refers to a lung disease that is otherwise known as silicosis. It is the longest word in the English language
+1.  It returns back the ressource usage of the parameter given.
+2.  16 members
+3.  Calculate needs a pointer to work. 
+4.  First it checks if we passed the correct arguments into the program. If the number of arguments is less than 2
+or exceeds 3 ; the program stops. Else ; we start calculating the loading time of the dictionary and count the mispelled words.
+To spellcheck our words we loop through each character (only alphabetical and apostrophes). If we find a new word 
+we start benchmarking.
+5.  FGETC read and store until newLine. fscanf reads until any blank space and don't store it.
+6.  Because we don't want (and we will not do) to change these values. Why don't declare them as const if we don't change them ? :-)
+7.  I used the linked list because we had a lot of time that we could study that data structure so already knew it a bit.
+
+8.  0.97
+9.  I'm sure I could improve a lot my results if I replace some of my for loops with other syntax
+10. Not really
